@@ -1,13 +1,12 @@
-﻿Console.Write("Enter usermane ");
-Console.ReadLine();
+﻿Console.WriteLine("Введите имя пользователя");
 string username = Console.ReadLine();
 
-if (usermane ==  "Mike");
+if (username == "Mike")
 {
-    Console.WriteLine("WHATSUP NIGGA! ");
+    Console.WriteLine("WHATASUP NIGGA");
 }
-else 
+else
 {
     Console.Write("Hello, ");
-    Console.Write(usermane);
+    Console.WriteLine(username);
 }
