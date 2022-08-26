@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Enter username");
+﻿//Знакомимся с ветвлением if - else
+Console.WriteLine("Enter username");
 string username = Console.ReadLine();
 
 if (username.ToLower() == "mike")
