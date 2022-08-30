@@ -1,15 +1,14 @@
-﻿void Fillarrat(int[] collection)
+﻿void FillArray(int[] collection)
 {
-    int lenght = collection.Length;
+    int lenght = collection.Lenght;
     int index = 0;
+    while(index < lenght)
+    {
+        collection[index] = new Random().Next(1, 10);
+        //index = index + 1;
+        index++;
+    }
 }
-while(index < lenght)
-{
-    cillection[index] = new Random().Next(1, 10);
-    index++;
-}
-
-void PrintArray(int[] collection);
 
 void PrintArray(int[] col)
 {
@@ -17,12 +16,12 @@ void PrintArray(int[] col)
     int position = 0;
     while(position < count)
     {
-        Console.Writeline(col[position]);
+        Console.WriteLine(col[position]);
         position++;
     }
 }
 
-int[] array = new int [10];
+int[] array = new int [10]; //new int[10] создай новый массив в которой будет 10 эллементов 
 
 FillArray(array);
 PrintArray(array);
