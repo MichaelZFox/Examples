@@ -1,6 +1,8 @@
-﻿void FillArray(int[] collection)
+﻿Console.Clear();
+
+void FillArray(int[] collection)
 {
-    int lenght = collection.Lenght;
+    int lenght = collection.Length;
     int index = 0;
     while(index < lenght)
     {
