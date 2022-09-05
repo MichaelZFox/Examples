@@ -1,20 +1,7 @@
-﻿//Двумерные массивы
-// string[,] table = new string[2,3];
-// int[,]matrix = new int[5,8]; сначала указываем строки потом кол-во столбцы
-string[,] table = new string[2, 5];
-// String.Empty
-// table[0,0] table[0,1] table[0,2] ... table[0,4];
-// table[1,0] table[1,1] table[2,2] ... table[4,4];
+﻿// Как представить черно-белое изображение 
+// int[,] = new int[23,25];
+// 0 - закрашенный пиксель
+// 1 - не закрашенный пиксель 
+// 
+// как закрасить область?
 
-
-
-table[1, 2] = "word";
-
-for (int rows = 0; rows < 2; rows++)
-{
-    for (int columns = 0; columns < 5; columns++)
-    {
-        Console.WriteLine($"-{table[rows, columns]}-");
-    }
-
-}
