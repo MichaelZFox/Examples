@@ -1,23 +1,14 @@
-﻿// Рекурсия это функция, которая вызывает сама себя
-// 
-// Что же есть рекурсия
-// 
-// Факториал
-// 5! = 5*4*3*2*1
-//      5*4!
-//        4*3!
-//          3*2!
-//            2*1!
+﻿// f(1) = 1 
+// f(2) = 1
+// f(n) = f(n) + f(n-2)
 
-
-double Factorial(double n)
+double Fibonacci(double n)
 {
-    // 1! = 1
-    // 0! = 1
-    if (n == 1) return 1;
-    else return n * Factorial(n - 1);
+    if (n == 1 || n == 2) return 1;
+    else return Fibonacci(n-1) + Fibonacci(n-2);
 }
-for (double i = 1; i < 40; i++)
+
+for (double i = 1; i < 50; i++)
 {
-Console.WriteLine($"{i}! = {Factorial(i)}"); 
+    Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 }
