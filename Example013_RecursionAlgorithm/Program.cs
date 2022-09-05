@@ -1,7 +1,7 @@
 ﻿//Двумерные массивы
 // string[,] table = new string[2,3];
 // int[,]matrix = new int[5,8]; сначала указываем строки потом кол-во столбцы
-string[,] table = new string[2,3];
+string[,] table = new string[2, 5];
 // String.Empty
 // table[0,0] table[0,1] table[0,2] ... table[0,4];
 // table[1,0] table[1,1] table[2,2] ... table[4,4];
